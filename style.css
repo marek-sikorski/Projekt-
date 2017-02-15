@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif; }
+
+.layer {
+  height: 250px;
+  text-align: center;
+  line-height: 250px; }
+  .layer i {
+    display: none; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,407 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+/*klasy z szerokoscia kolmun */
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-x1 {
+  width: 20%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+/* klasy z przesunieciem kolumn */
+.col-offset-0 {
+  margin-left: 0; }
+
+.col-offset-1 {
+  margin-left: 8.33%; }
+
+.col-offset-2 {
+  margin-left: 16.66%; }
+
+.col-offset-3 {
+  margin-left: 25%; }
+
+.col-offset-4 {
+  margin-left: 33.33%; }
+
+.col-offset-x2 {
+  margin-left: 40%; }
+
+.col-offset-5 {
+  margin-left: 41.66%; }
+
+.col-offset-6 {
+  margin-left: 50%; }
+
+.col-offset-7 {
+  margin-left: 58.33%; }
+
+.col-offset-8 {
+  margin-left: 66.66%; }
+
+.col-offset-9 {
+  margin-left: 75%; }
+
+.col-offset-10 {
+  margin-left: 83.33%; }
+
+.col-offset-11 {
+  margin-left: 91.66%; }
+
+.massage, header > nav > ul, [class*="col-x1"], [class*="col-x2"], .people, [class^="col-8"], .media i, .bottom {
+  margin: 0;
+  padding: 0; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+header {
+  width: 100%;
+  background-color: #313234;
+  height: 50px;
+  line-height: 50px;
+  position: fixed;
+  z-index: 1; }
+  header > nav > img {
+    padding: 10px 0; }
+  header > nav > ul {
+    list-style-type: none;
+    float: right; }
+    header > nav > ul > li {
+      display: inline-block; }
+      header > nav > ul > li > a {
+        line-height: 50px;
+        padding: 0 20px;
+        color: #fff;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: block; }
+        header > nav > ul > li > a:hover {
+          background-color: #563636;
+          color: blue; }
+
+.row:before, .row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+section > .container {
+  margin: 50px auto;
+  text-align: center; }
+
+.hero {
+  padding: 50px 0;
+  height: 500px;
+  background: url(http://www.freeimageslive.com/galleries/transtech/electronics/pics/techpcb0926.jpg) 50% 50%;
+  background-size: cover;
+  background-position: center; }
+
+.slogan {
+  max-width: 800px;
+  float: right;
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  color: #fff;
+  padding: 20px; }
+  .slogan > h1 {
+    font-weight: normal; }
+    .slogan > h1 > p {
+      font-size: 24px;
+      font-weight: bold; }
+
+[class^="col-4"] {
+  text-align: center;
+  display: block;
+  float: left; }
+  [class^="col-4"] > i {
+    font-size: 90px;
+    border-radius: 20%;
+    height: 150px;
+    width: 150px;
+    line-height: 150px; }
+  [class^="col-4"] > h2 {
+    text-transform: uppercase; }
+
+.icons .col-4 {
+  height: 400px; }
+
+.icons p {
+  font-size: 14px;
+  color: #baae98; }
+
+.fa-globe {
+  color: #fff;
+  background-color: #313234; }
+
+.fa-laptop {
+  color: #fff;
+  background-color: #00c7c8; }
+  .fa-laptop ~ h2 {
+    color: #00c7c8; }
+
+.fa-cogs {
+  color: #fff;
+  background-color: #313234; }
+
+.text > h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 40px; }
+.text > p {
+  color: #baae98; }
+
+[class*="col-x1"] {
+  float: left;
+  width: 20%;
+  min-height: 1px; }
+
+[class*="col-x2"] {
+  float: left;
+  width: 40%;
+  min-height: 1px; }
+
+.image, .img-1, .img-2, .img-3, .img-4, .img-5, .img-6, .img-7, .img-8 {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.img-1 {
+  background-image: url(https://thumbs.dreamstime.com/x/online-security-technology-background-40026802.jpg); }
+
+.img-2 {
+  background-image: url(http://www.freeimageslive.com/galleries/transtech/tech/pics/pcb04090022.jpg); }
+
+.img-3 {
+  background-image: url(http://www.freeimageslive.com/galleries/transtech/electronics/pics/tvcircuits04090016.jpg); }
+
+.img-4 {
+  background-image: url(http://www.freeimageslive.com/galleries/space/spacecraft/pics/pv_bus_probes.jpg); }
+
+.img-5 {
+  background-image: url(http://www.freeimageslive.com/galleries/transtech/computer/pics/tech00845.jpg); }
+
+.img-6 {
+  background-image: url(http://www.freeimageslive.com/galleries/transtech/objects/pics/mobulephone04070011.jpg); }
+
+.img-7 {
+  background-image: url(http://www.freeimageslive.com/galleries/transtech/informationtechnology/preview/blue_screen.jpg); }
+
+.img-8 {
+  background-image: url(http://www.freeimageslive.com/galleries/transtech/informationtechnology/preview/power_button.jpg); }
+
+.gallery i {
+  font-size: 30px; }
+
+.layer {
+  height: 250px;
+  text-align: center;
+  line-height: 250px; }
+  .layer i {
+    display: none; }
+
+.gallery .col:hover .layer {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.gallery .layer:hover i {
+  display: inline-block; }
+
+.fa-link {
+  margin: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #000;
+  padding: 10px; }
+
+.fa-search {
+  margin: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #000;
+  padding: 10px; }
+
+.people {
+  height: 300px;
+  min-height: 1px; }
+
+.area {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background: url("http://www.bobrowski.biz/kodilla/3.3/tlo.jpg");
+  text-align: center;
+  line-height: 200px;
+  margin: 0 auto; }
+  .area:hover {
+    opacity: 0.5; }
+  .area > h3 {
+    font-family: "Montserrat", sans-serif;
+    color: transparent;
+    font-size: 24px; }
+  .area > h3:hover {
+    color: #fff; }
+
+.paragraph p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #313234;
+  text-align: center; }
+
+.content {
+  background: url("http://www.bobrowski.biz/kodilla/3.3/tlo.jpg");
+  margin: 0;
+  min-height: 1px;
+  width: 100%;
+  height: 350px; }
+
+.col-4 > .picture {
+  background: url("https://s23.postimg.org/m2lagacy3/rsz_phone.png");
+  background-repeat: no-repeat;
+  width: 260px;
+  height: 320px;
+  margin-top: 130px;
+  float: right; }
+
+[class^="col-8"] {
+  height: 280px;
+  float: left;
+  display: block;
+  margin-top: 60px; }
+  [class^="col-8"] h2 {
+    text-transform: uppercase;
+    text-align: left;
+    padding: 15px;
+    padding-left: 25px;
+    color: #fff;
+    font-size: 38px; }
+
+[class^="col"] {
+  float: left;
+  display: block; }
+
+[class^="col-7"] > p {
+  margin: 0;
+  font-size: 14px;
+  color: #fff;
+  text-align: justify;
+  padding: 5px; }
+
+[class^="col-5"] > p {
+  margin: 0;
+  text-align: justify;
+  font-style: italic;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px;
+  padding-left: 10px; }
+
+.number h1 {
+  font-size: 60px;
+  color: #313234;
+  font-weight: bold; }
+.number p {
+  text-transform: uppercase;
+  color: #00c7c8;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px; }
+
+.contact {
+  height: 300px;
+  width: 100%;
+  float: left;
+  background-color: #313234;
+  display: block;
+  color: #fff; }
+  .contact h1 {
+    text-align: left;
+    text-transform: uppercase; }
+    .contact h1:after {
+      display: inline-block;
+      content: "";
+      border-top: 3px solid #fff;
+      width: 100px;
+      height: 10px;
+      margin-left: 10px; }
+
+.about p {
+  text-align: left; }
+
+.adress > h1 {
+  padding-left: 15px; }
+  .adress > h1 td {
+    line-height: 25px;
+    padding-left: 15px;
+    text-align: left; }
+
+.td {
+  font-weight: bold;
+  font-size: 20px; }
+
+.social h1 {
+  padding-left: 15px; }
+.social p {
+  text-align: left; }
+
+.media {
+  text-align: left; }
+  .media i {
+    background-color: #00c7c8;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 28px; }
+
+.bottom {
+  float: left;
+  width: 100%;
+  height: 80px;
+  background-color: #272828; }
+
+.col-12 p {
+  color: #fff;
+  text-align: center;
+  font-size: 22px; }
+
+/*# sourceMappingURL=output.css.map */
